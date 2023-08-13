@@ -1,12 +1,8 @@
 [apps]
-app-0 ansible_host=xxx.xxx.xxx.xxx
-app-1 ansible_host=xxx.xxx.xxx.xxx
-app-2 ansible_host=xxx.xxx.xxx.xxx
-[grafana]
-grafana ansible_host=xxx.xxx.xxx.xxx
-[prometheus]
-prometheus ansible_host=xxx.xxx.xxx.xxx
+app-0 ansible_host=54.255.196.100 ansible_user=ubuntu ansible_ssh_private_key_file=/home/dzikri/Downloads/jenkins.pem
 
-[all:vars]
-ansible_ssh_user=root
-ansible_ssh_private_key_file=~/.ssh/digitalocean.pem
+[grafana]
+grafana ansible_host=52.221.180.186 ansible_user=ubuntu ansible_ssh_private_key_file=/home/dzikri/Downloads/jenkins.pem
+
+[prometheus]
+prometheus ansible_host=52.221.180.186 ansible_user=ubuntu ansible_ssh_private_key_file=/home/dzikri/Downloads/jenkins.pem

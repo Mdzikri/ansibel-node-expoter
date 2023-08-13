@@ -65,7 +65,7 @@
     state: restarted
     name: prometheus
     enabled: yes
-  when: alertmanager_bin.stat.exists
+  # when: alertmanager_bin.stat.exists
 
 
 - name: Check if prometheus is accessible
