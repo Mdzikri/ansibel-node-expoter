@@ -1,6 +1,0 @@
----
-- name: provision for prometheus server
-  hosts: apps
-  become: yes
-  roles:
-    - prometheus
