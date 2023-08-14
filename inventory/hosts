@@ -1,0 +1,2 @@
+[server]
+server ansible_host= xxxxx ansible_user= xxxxx ansible_ssh_private_key_file=
